@@ -57,3 +57,10 @@ main {
     width: 410px;
 }
 
+.rate-level{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between ;
+    flex-wrap: wrap;
+    width: 410px;
+}
