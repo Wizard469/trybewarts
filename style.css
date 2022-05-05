@@ -35,6 +35,10 @@ main {
     flex-direction: column;
 }
 
+#trybewarts-forms-logo {
+    height: 500px;
+}
+
 .house-tryber {
    
 }
@@ -42,5 +46,13 @@ main {
 .family-tryber {
     display: flex;
     flex-direction: column;
+}
+
+.content-learn {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between ;
+    flex-wrap: wrap;
+    width: 410px;
 }
 

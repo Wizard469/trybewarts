@@ -20,6 +20,16 @@
     <main id="main">
         <section class="form-container"></section>
             <form action="" id="evaluation-form">
+
+                <div class="validation">
+                    <label for="name">Nome:</label>
+                    <input type="text" name="name" id="input-name" placeholder="Nome">
+                    <label for="sobre-nome">Sobre nome:</label>
+                    <input type="text" name="sobre-nome" id="input-lastname" placeholder="Sobrenome">
+                    <label for="email">E-mail:</label>
+                    <input type="email" name="email" id="input-email" placeholder="Email">
+                </div>
+
                 <div class="house-tryber">
                     <label for="house"></label>
                     <select name="house" id="house">
@@ -29,6 +39,7 @@
                         <option value="Pytherina" id="pytherina-house">Pytherina</option>
                     </select>
                 </div>
+
                 <div class = "family-tryber">
                     <label for="" id="label-family">Qual sua família?</label>
                     <div> 
@@ -44,10 +55,40 @@
                         <label for="fullStack">FullStack</label>
                     </div>  
                  </div>
-    
-            </form>
-        </section>
 
+                 <div class="learn">
+                     <label for="" id="label-content">Qual conteúdo você está com mais vontade de aprender?</label>
+                     <div class="content-learn">
+                     <div>
+                         <input type="checkbox" name="" id="HoFs" value="HoFs">
+                         <label for="HoFs">HoFs</label>
+                     </div>
+                     <div>
+                        <input type="checkbox" name="" id="Jest" value="Jest">
+                        <label for="Jest">Jest</label>
+                     </div>
+                     <div>
+                        <input type="checkbox" name="" id="Promises" value="Promises">
+                        <label for="Promises">Promises</label>
+                     </div>
+                     <div>
+                        <input type="checkbox" name="" id="React" value="React">
+                        <label for="React">React</label>
+                     </div>
+                     <div>
+                        <input type="checkbox" name="" id="SQL" value="SQL">
+                        <label for="SQL">SQL</label>
+                     </div>
+                     <div>
+                        <input type="checkbox" name="" id="Python" value="Python">
+                        <label for="Python">Python</label>
+                     </div>
+                    </div>
+                 </div>
+            </form>
+
+            <img src="images/trybewarts-colored.svg" alt="Trybewarts" id="trybewarts-forms-logo">
+        </section>
     </main>
     <script src="script.js"></script>
 </body>
