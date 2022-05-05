@@ -13,6 +13,7 @@
     width: 100%;
     height: 75px;
     color: white;
+    top: 0;
 }
 
 .trybewarts-header-logo {
@@ -25,6 +26,7 @@
 
 main {
     display: flex;
+    margin-top: 80px;
 }
 
 #evaluation-form {
@@ -35,4 +37,8 @@ main {
 
 #trybewarts-forms-logo {
     height: 500px;
+}
+
+.house-tryber {
+    background-color: black;
 }
