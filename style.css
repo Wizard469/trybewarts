@@ -36,5 +36,11 @@ main {
 }
 
 .house-tryber {
-    background-color: black;
+   
 }
+
+.family-tryber {
+    display: flex;
+    flex-direction: column;
+}
+
