@@ -9,3 +9,16 @@ loginButton.addEventListener('click', () => {
     alert('Email ou senha inválidos.');
   }
 });
+
+const submitBtn = document.querySelector('#submit-btn');
+const agreement = document.querySelector('#agreement');
+
+submitBtn.disabled = true;
+
+agreement.addEventListener('change', () => {
+  if (agreement.checked) {
+    submitBtn.disabled = false;
+  } else {
+    submitBtn.disabled = true;
+  }
+});
